@@ -1,0 +1,108 @@
+---
+title: "Application Exercise 4"
+subtitle: "R Markdown"
+output: html_document
+---
+
+# Headings
+
+# Heading Level 1
+
+## Heading Level 2
+
+### Heading Level 3
+
+#### Heading Level 4
+
+# Markdown text
+
+This is text written in markdown markup language. Markdown is written in **plain text** and prooduces formatted text. It's an **open format**, a file format with no restrictions, monetary or otherwise that can be fully processed with at least one free/libre/open-source software tool. As opposed to the .docx file format, which is a proprietary file format that a company owns and controls.
+
+# Code chunks
+
+Code chunks are added either by using a keyboard shortcut (Windows: Ctrl + Alt + I; MacOS: Cmd + Option + I) or by clicking on the green plus button in the menu bar of this file. 
+
+```{r}
+
+1 + 1
+
+result <- 1 + 2
+
+result
+
+result * 2
+
+sqrt(49)
+
+sum(1, 2, 3)
+
+text <- "some text"
+
+
+```
+
+Code is run either by a click on the green play button in the top right corner of the code chunk or by using a keyboard shortcut (Ctrl / Cmd + Enter) to execute code line by line. The code is sent to the Console where it is executed and the result is printed.
+
+## Terminology
+
+- Assignment Operator: `<-`
+- Function: `sum()`, `sqrt()`
+- Object: Stored in current R session and can be viewed in 'Environment' Tab
+
+# Inline code
+
+You can also write code inline by using the single tick, followed by the letter r and the code. 
+
+The sum of 1, 2, and 3 is `r sum(1, 2, 3)`. Or we can reuse the object we created above where we added 1 and 2, which makes `r result`. 
+
+# Exercises
+
+## Exercise 1 - Knit, Add, Commit, Push
+
+1. **Knit:** Render this file to HTML (*Tip: Click the Knit Button at the top of this file*)
+2. **Add** Open the Git pane and add all files to the staging area (*Tip: Tick off all checkboxes under column 'Staged'*)
+3. **Commit:** Commit pending changes, add a meaningful commit message 
+4. **Push:** Push changes to the remote repository (i.e. GitHub)
+
+## Exercise 2 - Research Questions
+
+1. Add the research questions that you and/or your group has worked on below. Write a bullet point for each research question.
+
+**remove me and write your text here**
+
+2. Knit, Add, Commit + Push your changes back to GitHub
+
+## Exercise 3 - Hyperlinks and Equations
+
+1. Use an online search engine to find the book "R Markdown: The Definitive Guide" and open it in your browser. 
+2. Navigate to Section 2.5, read Sections 2.5.1, 2.5.2, and 2.5.3.
+3. Use what you have learned to add a hyperlink below.
+4. Use what you have learned to add an equation below.
+
+**remove me and add a hyperlink**
+
+**remove me and add an equation**
+
+5. Knit, Add, Commit + Push your changes back to GitHub
+
+## Exercise 4 - Output Options
+
+1. Click on the gear icon next to the Knit button
+2. Scroll down to 'Output Options...' and click. A new window opens.
+3. Under 'General' tab, select to include a table of contents. 
+4. Under 'General' tab, change the value at 'Apply theme:' from default to a theme of your choice.
+5. Click OK to close the options window.
+6. Scroll up to the YAML header to see what has changed.
+7. Knit, Add, Commit + Push your changes back to GitHub
+
+# Keyboard Shortcuts
+
+Keyboard shortcuts are essential when working with any programming language and we recommend to use from the start instead of using the point + click buttons that are available in RStudio. 
+
+- **Add new code chunk:** Ctrl/Cmd + Alt + I
+- **Execute code line by line within a code chunk:** Ctrl/Cmd + Enter
+- **Execute an entire code chunk:** Ctrl/Cmd + Shift + Enter
+- **The Pipe (%>%):** Ctrl/Cmd + Shift + M
+- **Assignment operator (<-)**: Alt/Option + -s
+
+
