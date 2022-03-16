@@ -8,7 +8,6 @@ output: html_document
 
 ## Headings
 
-
 ## Markdown text
 
 This is text written in markdown markup language. Markdown is written in **plain text** and produces formatted text. It's an **open format**, a file format with no restrictions, monetary or otherwise that can be fully processed with at least one free/libre/open-source software tool. As opposed to the .docx file format, which is a **proprietary** file format that a company owns and controls.
@@ -38,6 +37,16 @@ knitr::include_graphics("https://raw.githubusercontent.com/rstudio/concept-maps/
 ```
 
 # Exercises
+
+## Exercise 0 - Let git know who you are
+
+1. Edit the details in the following code to your name and email. This is the name and email that your commits will be associated with.
+
+use_git_config(user.name = "Jane", user.email = "jane@example.org")
+
+2. Copy the line of code to your clipboard (Ctrl + C).
+
+3. Paste the line of code in the Console and hit ther Return (Enter) key.
 
 ## Exercise 1 - Knit, Add, Commit, Push
 
