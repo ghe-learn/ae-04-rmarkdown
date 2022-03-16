@@ -4,21 +4,19 @@ subtitle: "Research Design Submission"
 output: html_document
 ---
 
-# Headings
+# R Markdown
 
-# Heading Level 1
-
-## Heading Level 2
+## Headings
 
 ### Heading Level 3
 
 #### Heading Level 4
 
-# Markdown text
+## Markdown text
 
 This is text written in markdown markup language. Markdown is written in **plain text** and produces formatted text. It's an **open format**, a file format with no restrictions, monetary or otherwise that can be fully processed with at least one free/libre/open-source software tool. As opposed to the .docx file format, which is a proprietary file format that a company owns and controls.
 
-# Code chunks
+## Code chunks
 
 Code chunks are added either by using a keyboard shortcut (Windows: Ctrl + Alt + I; MacOS: Cmd + Option + I) or by clicking on the green plus button in the menu bar of this file. 
 
@@ -43,17 +41,25 @@ text <- "some text"
 
 Code is run either by a click on the green play button in the top right corner of the code chunk or by using a keyboard shortcut (Ctrl / Cmd + Enter) to execute code line by line. The code is sent to the Console where it is executed and the result is printed.
 
-## Terminology
+**Terminology**
 
 - Assignment Operator: `<-`
 - Function: `sum()`, `sqrt()`
 - Object: Stored in current R session and can be viewed in 'Environment' Tab
 
-# Inline code
+## Inline code
 
 You can also write code inline by using the single tick, followed by the letter r and the code. 
 
 The sum of 1, 2, and 3 is `r sum(1, 2, 3)`. Or we can reuse the object we created above where we added 1 and 2, which makes `r result`. 
+
+## Concept Map
+
+I have included a concept map of R Markdown below [(Copyright (c) RStudio)](https://github.com/rstudio/concept-maps/blob/master/LICENSE.md) under licensed under [CC-BY](http://creativecommons.org/licenses/by/4.0/). You will learn how to use this code to include images as part of the course. 
+
+```{r}
+knitr::include_graphics("https://raw.githubusercontent.com/rstudio/concept-maps/master/en/rmarkdown.svg")
+```
 
 # Exercises
 
@@ -66,7 +72,7 @@ The sum of 1, 2, and 3 is `r sum(1, 2, 3)`. Or we can reuse the object we create
 
 ## Exercise 2 - Research Questions + Design
 
-1. Add the research questions that you and/or your group have worked on below. Write a bullet point for each research question.
+1. Add the research questions that you and/or your group have worked on below. Write a bullet point for each research question and sub-question.
 
 **remove me and write your text here**
 
