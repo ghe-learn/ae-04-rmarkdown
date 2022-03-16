@@ -20,7 +20,7 @@ Code is run either by a click on the green play button in the top right corner o
 
 **Terminology**
 
-- Assignment Operator: `<-`
+- Assignment Operator: `<-` (Keyboard shortcut: Alt/Option + -)
 - Function: `sum()`, `sqrt()`
 - Object: Stored in current R session and can be viewed in 'Environment' Tab
 
@@ -102,6 +102,6 @@ Keyboard shortcuts are essential when working with any programming language and 
 - **Execute code line by line within a code chunk:** Ctrl/Cmd + Enter
 - **Execute an entire code chunk:** Ctrl/Cmd + Shift + Enter
 - **The Pipe (%>%):** Ctrl/Cmd + Shift + M
-- **Assignment operator (<-)**: Alt/Option + -s
+- **Assignment operator (<-)**: Alt/Option + -
 
 
