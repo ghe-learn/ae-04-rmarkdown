@@ -1,6 +1,6 @@
 ---
 title: "Application Exercise 4"
-subtitle: "R Markdown"
+subtitle: "Research Design Submission" 
 output: html_document
 ---
 
@@ -16,7 +16,7 @@ output: html_document
 
 # Markdown text
 
-This is text written in markdown markup language. Markdown is written in **plain text** and prooduces formatted text. It's an **open format**, a file format with no restrictions, monetary or otherwise that can be fully processed with at least one free/libre/open-source software tool. As opposed to the .docx file format, which is a proprietary file format that a company owns and controls.
+This is text written in markdown markup language. Markdown is written in **plain text** and produces formatted text. It's an **open format**, a file format with no restrictions, monetary or otherwise that can be fully processed with at least one free/libre/open-source software tool. As opposed to the .docx file format, which is a proprietary file format that a company owns and controls.
 
 # Code chunks
 
@@ -64,15 +64,23 @@ The sum of 1, 2, and 3 is `r sum(1, 2, 3)`. Or we can reuse the object we create
 3. **Commit:** Commit pending changes, add a meaningful commit message 
 4. **Push:** Push changes to the remote repository (i.e. GitHub)
 
-## Exercise 2 - Research Questions
+## Exercise 2 - Research Questions + Design
 
-1. Add the research questions that you and/or your group has worked on below. Write a bullet point for each research question.
+1. Add the research questions that you and/or your group have worked on below. Write a bullet point for each research question.
 
 **remove me and write your text here**
 
-2. Knit, Add, Commit + Push your changes back to GitHub
+2. Write up the research design you are planning to use for your data collection.
 
-## Exercise 3 - Hyperlinks and Equations
+**remove me and write your text here**
+
+3. Write up the variables that are needed, together with the respective questions and possible response values.
+
+**remove me and write your text here**
+
+4. Knit, Add, Commit + Push your changes back to GitHub
+
+## Exercise 3 - Hyperlinks and Equations (**Bonus**)
 
 1. Use an online search engine to find the book "R Markdown: The Definitive Guide" and open it in your browser. 
 2. Navigate to Section 2.5, read Sections 2.5.1, 2.5.2, and 2.5.3.
@@ -85,7 +93,7 @@ The sum of 1, 2, and 3 is `r sum(1, 2, 3)`. Or we can reuse the object we create
 
 5. Knit, Add, Commit + Push your changes back to GitHub
 
-## Exercise 4 - Output Options
+## Exercise 4 - Output Options (**Bonus**)
 
 1. Click on the gear icon next to the Knit button
 2. Scroll down to 'Output Options...' and click. A new window opens.
