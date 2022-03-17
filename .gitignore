@@ -39,5 +39,5 @@ vignettes/*.pdf
 .Renviron
 
 # Solutions RMD
-
+*-solutions.R
 *-solutions.Rmd
