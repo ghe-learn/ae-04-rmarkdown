@@ -42,7 +42,7 @@ knitr::include_graphics("https://raw.githubusercontent.com/rstudio/concept-maps/
 
 1. Edit the details in the following code to your name and email. This is the name and email that your commits will be associated with.
 
-use_git_config(user.name = "Jane", user.email = "jane@example.org")
+usethis::use_git_config(user.name = "Jane", user.email = "jane@example.org")
 
 2. Copy the line of code to your clipboard (Ctrl + C).
 
@@ -65,11 +65,38 @@ use_git_config(user.name = "Jane", user.email = "jane@example.org")
 
 **remove me and write your text here**
 
-3. Write up the variables that are needed, together with the respective questions and possible response values.
+3. Submit your sample population:
+
+- Bins: (1) Number; (2) Location, (3) Frequency of sampling
+- Human population, for example random, over 60, family, cyclist, etc.
+  
+You can download a CSV with data on all bins from:
+
+- https://www.ogd.stadt-zuerich.ch/geoportal_download/71dc10de-a5e2-11ec-94cb-005056b0ce82.zip (**valid until 22nd March**)
+- https://www.stadt-zuerich.ch/geodaten/download/Abfallgefaesse (**Stadt Zürich Open Data, in German**) 
 
 **remove me and write your text here**
 
-4. Knit, Add, Commit + Push your changes back to GitHub
+4. Write up the variables that are needed, together with the respective questions and possible response values.
+
+**remove me and write your text here**
+
+5. Knit, Add, Commit + Push your changes back to GitHub
+
+
+## Exercise 2: Each ~~group~~ person will
+
+1. Add the research questions that you and/or your group have worked on.
+
+2. Write up the research design you are planning to use for your data collection.
+
+3. Submit their sample population:
+
+  - Bins: (1) Number; (2) Location, (3) Frequency of sampling
+  - Human population, for example random, over 60, family, cyclist, etc.
+
+4. Write up the variables that are needed, together with the respective questions and possible response values.
+
 
 ## Exercise 3 - Hyperlinks and Equations (**Bonus**)
 
